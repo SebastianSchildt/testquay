@@ -25,7 +25,7 @@ on:
 permissions:
   packages: write
 
-
+jobs:
   check_ghcr_push:
     name: Check access rights
     uses: eclipse-kuksa/kuksa-actions/.github/workflows/check_ghcr_push.yml@2
